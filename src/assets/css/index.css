@@ -88,8 +88,15 @@ input:focus {
     text-transform: capitalize;
 }
 
-.card {
+.chart {
+    padding: 5px 0 0 3px;
+}
+
+.table {
     padding: 30px;
+}
+
+.card {
     margin-bottom: 30px;
     background-color: var(--main-bg);
     box-shadow: var(--box-shadow);
@@ -101,14 +108,14 @@ input:focus {
 }
 
 .card.full-height {
-    height: calc(100% - 30px);
+    height: calc(100% - 15px);
 }
 
 .card__header {
     text-transform: capitalize;
 }
 
-.card > div ~ div {
+.card>div~div {
     margin-top: 30px;
 }
 
@@ -150,4 +157,23 @@ input:focus {
 .orange-color {
     background-color: var(--main-color-orange);
     color: #fff;
+}
+
+/* STYLE DESKTOP VERSION */
+@media (min-width: 992px) {
+    .card {
+        padding: 30px;
+        margin-bottom: 30px;
+        background-color: var(--main-bg);
+        box-shadow: var(--box-shadow);
+        border-radius: var(--border-radius);
+    }
+
+    .full-height {
+        height: 100%;
+    }
+
+    .card.full-height {
+        height: calc(100% - 30px);
+    }
 }
