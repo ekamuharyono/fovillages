@@ -1,22 +1,22 @@
 [
     {
-        "icon": "bx bx-shopping-bag",
-        "count": "1,995",
-        "title": "Total sales"
+        "icon": "bx bx-home-circle",
+        "count": "131",
+        "title": "Pelanggan Rumahan"
     },
     {
-        "icon": "bx bx-cart",
-        "count": "2,001",
-        "title": "Daily visits"
+        "icon": "bx bx-station",
+        "count": "56",
+        "title": "Pelanggan Voucher"
     },
     {
-        "icon": "bx bx-dollar-circle",
-        "count": "$2,632",
+        "icon": "bx bx-wallet",
+        "count": "Rp 82.4M",
         "title": "Total income"
     },
     {
-        "icon": "bx bx-receipt",
-        "count": "1,711",
-        "title": "Total orders"
+        "icon": "bx bx-group",
+        "count": "187",
+        "title": "Total Pelanggan"
     }
 ]
